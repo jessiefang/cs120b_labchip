@@ -1,0 +1,4 @@
+Breakpoint 1 at 0x12a: file source/main.c, line 20.
+Note: automatically using hardware breakpoints for read-only addresses.
+Detaching from program: /home/lab/UCRCS120B_AVRTools/lab_chip/build/objects/main.elf, Remote target
+Remote doesn't know how to detach

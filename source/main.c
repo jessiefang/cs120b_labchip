@@ -1,7 +1,7 @@
 /*	Author: lab
  *  Partner(s) Name: n/a
- *	Lab Section:
- *	Assignment: Lab #  Exercise #
+ *	Lab Section:021
+ *	Assignment: Lab #5  Exercise #
  *	Exercise Description: [optional - include for your own benefit]
  *
  *	I acknowledge all content contained herein, excluding template or example
@@ -14,10 +14,10 @@
 
 int main(void) {
     /* Insert DDR and PORT initializations */
-
+DDRB = 0xFF; PORTB = 0x00;
     /* Insert your solution below */
     while (1) {
-
+	PORTB = 0x0F;
     }
     return 1;
 }
